@@ -1,98 +1,72 @@
-# placement-predictor
-🎓 Student Placement Predictor
+<div align="center">
 
-A web application built with Streamlit and Logistic Regression to predict whether a student will be placed in campus recruitment based on their academic performance and experience.
+# 🎓 Student Placement Predictor 🎓
 
-📌 Project Overview
+<p>
+  A machine learning web application built with <strong>Streamlit</strong> and <strong>Scikit-learn</strong> to predict campus placement outcomes for students based on their academic and personal profiles.
+</p>
 
-This project takes student attributes such as:
+<img src="https://i.imgur.com/your-screenshot-link.png" alt="Project Demo" width="800">
 
-College_ID
+</div>
 
-IQ
+---
 
-Prev_Sem_Result
+## 📌 Project Overview
 
-CGPA
+This project implements a **Logistic Regression** model to classify whether a student is likely to be placed (`Yes`) or not (`No`) during campus recruitment. The application provides an interactive and user-friendly interface where users can input student details and receive an instant prediction along with a confidence score.
 
-Academic_Performance
+While the dataset contains numerous features, this model is currently trained on the following key predictors:
+* **IQ Score**
+* **CGPA**
+* **Internship Experience**
 
-Internship_Experience
+---
 
-Extra_Curricular_Score
+## ✨ Features
 
-Communication_Skills
+<ul>
+    <li>🚀 **Interactive UI:** Clean and simple interface built with Streamlit.</li>
+    <li>🧠 **ML Model Integration:** Uses a trained Logistic Regression model from Scikit-learn.</li>
+    <li>📊 **Dynamic Prediction:** Takes user inputs from a sidebar to generate real-time predictions.</li>
+    <li>📈 **Confidence Score:** Displays the placement probability as a percentage.</li>
+    <li>📋 **Data Display:** Includes an option to view the raw dataset used for training the model.</li>
+</ul>
 
-Projects_Completed
+---
 
-and predicts the independent variable:
+## ⚙️ Tech Stack
 
-Placement (Yes/No)
+<p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" alt="Streamlit">
+    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+    <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy">
+</p>
 
-Currently, the model uses IQ, CGPA, and Internship_Experience as predictive features.
+---
 
-⚙️ Tech Stack
-
-Python 3
-
-Streamlit → for interactive UI
-
-Pandas → data handling
-
-Scikit-learn → ML model (Logistic Regression, preprocessing, train/test split)
-
-NumPy → numerical operations
-
-🚀 Features
-
-✅ Uploads and processes student dataset
-✅ Trains a Logistic Regression model on placement data
-✅ Takes student details as input from sidebar (IQ, CGPA, Internship)
-✅ Predicts placement outcome (High chance / Low chance)
-✅ Displays confidence percentage
-✅ Option to view the raw dataset used for training
-
+## 🚀 Finally starting Raje
 📂 Dataset
-
-The dataset used:
-college_student_placement_dataset.csv
-Contains attributes related to students’ academics, skills, and placements.
-
-▶️ How to Run
-1. Clone the repository
-git clone https://github.com/your-username/student-placement-predictor.git
-cd student-placement-predictor
-
-2. Install dependencies
-pip install -r requirements.txt
-
-
-(requirements.txt example)
-
-streamlit
-pandas
-scikit-learn
-numpy
-
-3. Run the Streamlit app
-streamlit run app.py
-
-🖼️ Example UI
-
-Sidebar for input: IQ, CGPA, Internship Experience
-
-Main section: Prediction result + confidence score
-
-Option to display dataset
+The model is trained on the college_student_placement_dataset.csv file, which contains various attributes related to students’ academic performance, skills, and final placement status.
 
 🔮 Future Enhancements
+Potential improvements for the project include:
 
-Include more features (Communication Skills, Projects, Extra-Curriculars, etc.)
+<ul>
+<li><b>Feature Expansion:</b> Incorporate more features like Communication Skills, Projects Completed, and Extra-Curriculars to improve model accuracy.</li>
+<li><b>Model Exploration:</b> Experiment with other classification models such as Random Forest, XGBoost, or Support Vector Machines (SVM).</li>
+<li><b>Deployment:</b> Deploy the application to a cloud platform like Streamlit Cloud, Heroku, or AWS for public access.</li>
+<li><b>Dashboarding:</b> Add a dashboard to visualize key insights from the dataset.</li>
+</ul>
 
-Try different ML models (Random Forest, XGBoost, SVM)
+👨‍💻 Connect with Me
+<p>
+Made with ❤️ by <strong>Bhupender Nayak</strong>
+</p>
 
-Deploy on Streamlit Cloud / Heroku / AWS
-
-👨‍💻 Author
-
-Made with ❤️ by [Your Name]
+<p>
+<a href="https://github.com/bhupendernayak"><img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" alt="GitHub"></a>
+<a href="https://www.google.com/search?q=https://linkedin.com/in/bhupendernayak"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0A66C2%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn"></a>
+</p>
