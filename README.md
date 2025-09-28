@@ -67,6 +67,6 @@ Made with ❤️ by <strong>Bhupender Nayak</strong>
 </p>
 
 <p>
-<a href="https://github.com/bhupendernayak"><img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" alt="GitHub"></a>
-<a href="https://www.google.com/search?q=https://linkedin.com/in/bhupendernayak"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0A66C2%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn"></a>
+<a href="https://github.com/BhupenderNayak"><img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/bhupendernayak"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0A66C2%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn"></a>
 </p>
