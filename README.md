@@ -6,11 +6,44 @@
   A machine learning web application built with <strong>Streamlit</strong> and <strong>Scikit-learn</strong> to predict campus placement outcomes for students based on their academic and personal profiles.
 </p>
 
-<img src="https://i.imgur.com/your-screenshot-link.png" alt="Project Demo" width="800">
+<img src="assets/Screenshot 2025-09-28 204846.png">
 
 </div>
 
 ---
+## 🖼️ User Interface & Output Examples
+
+## 🖼️ User Interface & Output Examples
+
+Here are some screenshots demonstrating the application's interactive interface and prediction capabilities.
+
+<div align="center">
+
+### **High Chance of Placement**
+<p>
+  The app clearly indicates a "High Chance of Placement" when a student's profile aligns well with successful placement criteria. The confidence score provides a quantitative measure of the prediction.
+</p>
+<img src="assets/Screenshot 2025-09-28 204935.png" alt="High Chance Prediction" width="700">
+
+### **Low Chance of Placement**
+<p>
+  Conversely, the predictor flags a "Low Chance of Placement" when input metrics suggest a lower probability, helping to identify at-risk profiles.
+</p>
+<img src="assets/Screenshot 2025-09-28 204904.png" alt="Low Chance Prediction" width="700">
+
+### **Raw Dataset View**
+<p>
+  Users can opt to view the underlying dataset used to train the model, offering transparency and context for the predictions.
+</p>
+<img src="assets/Screenshot 2025-09-28 204952.png" alt="Raw Data View" width="700">
+
+### **Logistic Regression Decision Boundary**
+<p>
+  A visualization from the Jupyter Notebook showing the decision boundary of the Logistic Regression model. This plot illustrates how the model separates students predicted to be placed from those who are not based on their standardized IQ and CGPA.
+</p>
+<img src="assets/Screenshot 2025-09-28 205035.png" alt="Decision Boundary Plot" width="700">
+
+</div>
 
 ## 📌 Project Overview
 
